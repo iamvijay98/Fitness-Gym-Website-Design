@@ -23,14 +23,14 @@ const Footer = ({nav}) => {
             <h1 className=' text-2xl font-medium mb-8'>{val.title}</h1>
               {val.footerLinks.map((li)=>(
                 <ul key={li.link} className=' mb-3'>
-                  <li className=' text-xl tracking-wide text-gray-400 font font-thin hover:translate-x-1 duration-300'><a href="#">{li.link}</a></li>
+                  <li className=' text-xl tracking-wide text-gray-400 font font-thin hover:translate-x-1 duration-300'><a href="#home">{li.link}</a></li>
                 </ul>
               ))}
           </div>
         ))}
 
         <div>
-          <a href="#" className=' font-semibold text-5xl flex items-center gap-1 text-white'>
+          <a href="#home" className=' font-semibold text-5xl flex items-center gap-1 text-white'>
             <img src={logo} alt="logo" width={60} height={60}/>
             FITNESS
           </a>
