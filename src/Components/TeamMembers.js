@@ -33,7 +33,7 @@ const TeamMembers = () => {
                 <img src={val.img} alt="TeamMembers" className=' h-full object-cover max-sm:h-[65vh]'/>
 
                 <div className='absolute bottom-[-50px] duration-[.4s] group-hover:bottom-0 left-0 w-full group-hover:bg-[red] p-7 pb-8'>
-                  <p className=' font mb-2 text-gray-300 relative before:absolute before:w-10 before:h-1 before:bg-[#f04e3c] before:top-[50%] before:left-0 pl-14 text-lg before:translate-y-[-50%] group-hover:text-white'>{val.role}</p>
+                  <p className=' font mb-2 text-gray-300 relative before:absolute before:w-10 before:h-1 before:bg-[#f04e3c] before:top-[50%] before:left-0 pl-14 text-lg before:translate-y-[-50%] group-hover:text-white group-hover:before:bg-white'>{val.role}</p>
                   <h1 className='font text-xl font-semibold text-white'>{val.name}</h1>
 
                   <div className=' flex items-center gap-6 text-lg mt-[27px] text-white'>

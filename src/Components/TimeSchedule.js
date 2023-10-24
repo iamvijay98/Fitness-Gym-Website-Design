@@ -40,7 +40,7 @@ const TimeSchedule = () => {
           <div className={` ${active === "3" ? "bg-[red]" : undefined} group hover:bg-[red] px-6 py-10 text-center h-[250px] max-lg:h-[270px] max-sm:h-[250px]`}>
             <p className={` ${active === "3" ? "bg-white text-black" : "text-white"} text-lg bg-black group-hover:bg-white group-hover:text-black text-center max-w-[80%] m-auto py-1 mt-4 max-lg:max-w-[35%]`}>6am-8am</p>
             <h1 className={`${active === "3" ? "text-white" : undefined} text-black mt-5 group-hover:text-white text-3xl`}>Chest & Triceps</h1>
-            <p className={`${active === "3" ? "text-white" : undefined} text-black group3hover:text-white text-lg`}>by <span className={`${active === "3" ? "text-white" : undefined} text-slate-500 group-hover:text-white`}>Guru Mann</span></p>
+            <p className={`${active === "3" ? "text-white" : undefined} text-black group-hover:text-white text-lg`}>by <span className={`${active === "3" ? "text-white" : undefined} text-slate-500 group-hover:text-white`}>Guru Mann</span></p>
           </div>
 
           <div className={` ${active === "4" ? "bg-[red]" : undefined} group hover:bg-[red] px-6 py-10 text-center h-[250px] max-lg:h-[270px] max-sm:h-[250px]`}>
